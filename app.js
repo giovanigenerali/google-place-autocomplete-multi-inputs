@@ -1,15 +1,15 @@
 function addAddress() {
-
-	$("#new").on("click", function() {
 	
-  	var inc = $(".row_address").length + 1,
+	$("#new").on("click", function() {
+		
+		var inc = $(".row_address").length + 1,
 				$newAddressRow = `
-        	<div id="${inc}" class="row_address" >
-				  	<input type="text" name="address" placeholder="Address...">
+					<div id="${inc}" class="row_address" >
+						<input type="text" name="address" placeholder="Address...">
   	        <button class="remove">X</button>
           </div>
-    		`;
-		
+				`;
+
     $($newAddressRow).insertBefore($(this));
     
     var $newAddressInput = $("input[name='address']:last");
