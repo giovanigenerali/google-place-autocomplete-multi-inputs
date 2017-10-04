@@ -1,7 +1,6 @@
 function addAddress() {
 
 	$("#new").on("click", function() {
-	
   	var inc = $(".row_address").length + 1,
 				$newAddressRow = `
         	<div id="${inc}" class="row_address" >
