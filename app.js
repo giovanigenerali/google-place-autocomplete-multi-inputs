@@ -41,7 +41,10 @@ function applySearchAddress($input) {
   // country: matches a country name or a two letter ISO 3166-1 country code. Note: The API follows the ISO standard for defining countries, and the filtering works best when using the corresponding ISO code of the country.
   var options = {
     // componentRestrictions: {
-    //   country: "en"
+    //   country: "en",
+    //     types: [
+    //       "address"
+    //     ]
     // }
   };
   
