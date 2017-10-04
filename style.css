@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background: #f3f5f6;
+}
+h1 {
+  font-size: 22px;
+}
+.row_address {
+  display: flex;
+  margin-bottom: 10px;
+}
+input, button {
+  font-family: Arial;
+  font-size: 12px;
+  border: 1px solid #4285f4;
+  padding: 8px;
+  outline: none;
+}
+input {
+  background: #fff;
+  width: 50vw;
+}
+button {
+  background: #4285f4;
+  color: #fff;
+  cursor: pointer;
+}
